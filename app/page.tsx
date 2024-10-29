@@ -77,7 +77,7 @@ export default function Page() {
           <FormLabel>City name</FormLabel>
           <Flex>
             <Box>
-              <Input placeholder='Input city name to check weather info' w="300px" value={cityName} onChange={handleInputChange} onFocus={handleInputFocus} />
+              <Input placeholder='Input city name to check weather info'  value={cityName} onChange={handleInputChange} onFocus={handleInputFocus} />
             </Box>
             <Spacer />
             <Button colorScheme='blue' onClick={searchWeatherByCity}>Submit</Button>
