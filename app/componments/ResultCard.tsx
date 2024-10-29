@@ -29,7 +29,7 @@ function ResultCard({ location, weather, maxTemperature, minTemperature }: Resul
                     </Box>
                     <Box>
                         <Heading size='xs' textTransform='uppercase'>
-                            Max Temperature
+                            Max Temperature (°C)
                         </Heading>
                         <Text pt='2' fontSize='sm'>
                             {maxTemperature}
@@ -37,7 +37,7 @@ function ResultCard({ location, weather, maxTemperature, minTemperature }: Resul
                     </Box>
                     <Box>
                         <Heading size='xs' textTransform='uppercase'>
-                            Min Temperature
+                            Min Temperature (°C)
                         </Heading>
                         <Text pt='2' fontSize='sm'>
                             {minTemperature}
